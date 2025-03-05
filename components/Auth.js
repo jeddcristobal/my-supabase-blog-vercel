@@ -1,4 +1,6 @@
 // components/Auth.js
+"use client"; // Add this line!
+
 import { useState } from 'react';
 import { supabase } from '../lib/supabaseClient';
 
